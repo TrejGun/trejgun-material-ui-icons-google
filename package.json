@@ -27,8 +27,7 @@
     "typescript": "3.6.3"
   },
   "files": [
-    "dist/*",
-    "src/*"
+    "dist/*"
   ],
   "keywords": [
     "react",
@@ -39,7 +38,6 @@
   ],
   "license": "MIT",
   "main": "./dist/index.js",
-  "module": "./src/index.ts",
   "name": "@trejgun/material-ui-icons-google",
   "peerDependencies": {
     "@material-ui/core": "^4.4.0",
@@ -60,5 +58,5 @@
   "title": "Material UI Google flat icons",
   "type": "module",
   "types": "./dist/index.d.ts",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
