@@ -1,9 +1,9 @@
-import * as React from "react";
+import React, {FC} from "react";
 import {SvgIcon} from "@material-ui/core";
 import {SvgIconProps} from "@material-ui/core/SvgIcon/SvgIcon";
 
 
-export const Gmail: React.FC<SvgIconProps> = props => {
+export const Gmail: FC<SvgIconProps> = props => {
   return (
     <SvgIcon {...props}>
       <polygon fill="#F2F2F2" points="22.7331094 5.944125 21.201 21.3289219 2.799 21.3289219 1.56464063 6.241875 12 12.0844687" />

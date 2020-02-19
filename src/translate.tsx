@@ -1,9 +1,9 @@
-import * as React from "react";
+import React, {FC} from "react";
 import {SvgIcon} from "@material-ui/core";
 import {SvgIconProps} from "@material-ui/core/SvgIcon/SvgIcon";
 
 
-export const Translate: React.FC<SvgIconProps> = props => {
+export const Translate: FC<SvgIconProps> = props => {
   return (
     <SvgIcon {...props}>
       <path fill="#E6E6E6" d="M22.412538,4.30409357 L12.2923041,4.30409357 L11.2389708,8.37894737 L10.8608187,11.0569357 L12.8879064,16.7105029 L13.2133801,23.570807 L22.4125848,23.570807 C23.2632982,23.570807 23.9532632,22.8808421 23.9532632,22.0301287 L23.9532632,5.84477193 C23.9532632,4.99405848 23.2632515,4.30409357 22.412538,4.30409357 Z" />

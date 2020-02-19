@@ -1,9 +1,9 @@
-import * as React from "react";
+import React, {FC} from "react";
 import {SvgIcon} from "@material-ui/core";
 import {SvgIconProps} from "@material-ui/core/SvgIcon/SvgIcon";
 
 
-export const Slides: React.FC<SvgIconProps> = props => {
+export const Slides: FC<SvgIconProps> = props => {
   return (
     <SvgIcon {...props}>
       <path fill="#FBBB00" d="M19.9462124,6.57351562 L19.9462124,22.453875 C19.9462124,23.3078906 19.2708737,23.9999531 18.4389247,23.9999531 L4.50728763,23.9999531 C3.67469892,23.9999531 3,23.3078906 3,22.453875 L3,1.54607812 C3,0.6920625 3.67465323,-2.04281037e-13 4.50728763,-2.04281037e-13 L13.5376237,-2.04281037e-13 L19.9462124,6.57351562 Z" />

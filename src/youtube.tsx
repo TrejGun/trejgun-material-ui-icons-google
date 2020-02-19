@@ -1,9 +1,9 @@
-import * as React from "react";
+import React, {FC} from "react";
 import {SvgIcon} from "@material-ui/core";
 import {SvgIconProps} from "@material-ui/core/SvgIcon/SvgIcon";
 
 
-export const Youtube: React.FC<SvgIconProps> = props => {
+export const Youtube: FC<SvgIconProps> = props => {
   return (
     <SvgIcon {...props}>
       <path fill="#D32E2A" d="M24,7.21478125 L24,17.0977187 C24,18.8620469 22.5696094,20.2924375 20.8052813,20.2924375 L3.19471875,20.2924375 C1.43039063,20.2924375 0,18.8620469 0,17.0977187 L0,7.21478125 C0,5.45045312 1.43039063,4.0200625 3.19471875,4.0200625 L20.8053281,4.0200625 C22.5696094,4.0200625 24,5.45045312 24,7.21478125 Z" />

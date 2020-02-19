@@ -11,7 +11,7 @@ npm install @trejgun/material-ui-icons-google
 ## Usage
 
 ```typescript
-import * as React from "react";
+import React, { FC } from "react";
 import {Grid, Button, makeStyles} from "@material-ui/core";
 
 import {
@@ -34,7 +34,7 @@ import {
 } from "@trejgun/material-ui-icons-google";
 
 
-import useStyles = makeStyles(
+const useStyles = makeStyles(
  theme => ({
    button: {
      margin: theme.spacing(1),
@@ -47,7 +47,7 @@ import useStyles = makeStyles(
 );
 
 
-const Demo: React.FC = () => {
+const Demo: FC = () => {
   const classes = useStyles();
 
   return (

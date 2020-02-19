@@ -1,9 +1,9 @@
-import * as React from "react";
+import React, {FC} from "react";
 import {SvgIcon} from "@material-ui/core";
 import {SvgIconProps} from "@material-ui/core/SvgIcon/SvgIcon";
 
 
-export const Calendar: React.FC<SvgIconProps> = props => {
+export const Calendar: FC<SvgIconProps> = props => {
   return (
     <SvgIcon {...props}>
       <path fill="#E6E6E6" d="M21.3570469,0.03965625 L2.64220312,0.03965625 C2.05921875,0.03965625 1.58671875,0.5128125 1.58671875,1.09579687 L1.58671875,4.60729687 L22.4130937,4.60729687 L22.4130937,1.09579687 C22.4130937,0.512765625 21.9399844,0.03965625 21.3570469,0.03965625 Z" />

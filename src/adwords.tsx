@@ -1,9 +1,9 @@
-import * as React from "react";
+import React, {FC} from "react";
 import {SvgIcon} from "@material-ui/core";
 import {SvgIconProps} from "@material-ui/core/SvgIcon/SvgIcon";
 
 
-export const Adwords: React.FC<SvgIconProps> = props => {
+export const Adwords: FC<SvgIconProps> = props => {
   return (
     <SvgIcon {...props}>
       <path fill="#28B446" d="M24,23.226375 L17.890125,23.226375 C16.9341563,23.226375 16.0827188,22.6230469 15.7665937,21.721875 L12.4200937,12.1905 L12,10.994625 L12.1259531,5.15554687 L15.8522344,0.023671875 L16.9568438,3.16992187 L24,23.226375 Z" />

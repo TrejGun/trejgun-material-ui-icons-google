@@ -1,9 +1,9 @@
-import * as React from "react";
+import React, {FC} from "react";
 import {SvgIcon} from "@material-ui/core";
 import {SvgIconProps} from "@material-ui/core/SvgIcon/SvgIcon";
 
 
-export const Photos: React.FC<SvgIconProps> = props => {
+export const Photos: FC<SvgIconProps> = props => {
   return (
     <SvgIcon {...props}>
       <polygon fill="#D32E2A" points="18.0857344 6 18.0857344 12 16.2857344 13.644 14.4 12 12.7714219 11.3142656 14.3714062 7.75828125" />
